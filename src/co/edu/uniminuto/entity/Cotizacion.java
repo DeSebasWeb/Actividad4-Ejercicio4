@@ -34,9 +34,9 @@ public class Cotizacion {
     }
     
     public void calcularGastosAdministrativos(){
-        double porcentaje = 75.0;
-        double porcentajeDelValor =(porcentaje/100)*costoManoObra;
-        gastosAdministrativos = (costoManoObra-porcentajeDelValor)+precioTotalRepuestos;
+        double porcentaje = 15.0;
+        double porcentajeManoObra =(porcentaje/100)*costoManoObra;
+        gastosAdministrativos = porcentajeManoObra+precioTotalRepuestos;
         
     }
     public void calculoMontoTotal(){

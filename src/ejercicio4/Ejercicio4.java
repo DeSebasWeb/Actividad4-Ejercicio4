@@ -29,7 +29,6 @@ public class Ejercicio4 {
         cotizacionVehiculoReparar.calculoMontoTotal();
         
         JOptionPane.showMessageDialog(null, vehiculoReparar.toString()+"\n"+cotizacionVehiculoReparar.toString());
-        JOptionPane.showMessageDialog(null, cotizacionVehiculoReparar.getGastosAdministrativos());
     }
     
 }
